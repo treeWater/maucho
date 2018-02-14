@@ -1,12 +1,12 @@
 .wrapper {
 	padding-left: 18px;
 	padding-right: 18px;
-	max-width: 1236px;
+	max-width: 1076px;
 	margin-left: auto;
 	margin-right: auto;
 
 	&--medium {
-		max-width: 970px;
+		max-width: 680px;
 	}
 
 	&--narrow {

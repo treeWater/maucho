@@ -4,6 +4,9 @@
 
 	&__image {
 		display: block;
+		-webkit-background-size: cover;
+		background-size: cover;
+		width: 100%;
 	}
 
 	&__text-content {
