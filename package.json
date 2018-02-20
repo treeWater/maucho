@@ -1,21 +1,21 @@
 {
-  "name": "daydreamer",
+  "name": "yewu",
   "version": "1.0.0",
-  "description": "the dreams of a daydreamer",
+  "description": "yewu",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/treeWater/newdaydreamer.git"
+    "url": "git+https://github.com/treeWater/yewu.git"
   },
   "author": "Thomas Chang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/treeWater/newdaydreamer/issues"
+    "url": "https://github.com/treeWater/yewu/issues"
   },
-  "homepage": "https://github.com/treeWater/newdaydreamer#readme",
+  "homepage": "https://github.com/treeWater/yewu#readme",
   "dependencies": {
     "gulp-svg2png": "^2.0.2",
     "jquery": "^3.3.1",
