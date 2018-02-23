@@ -2,9 +2,9 @@
 var gulp = require('gulp'),
 postcss = require('gulp-postcss'),
 cssImport = require('postcss-import'),
+mixins = require('postcss-mixins'),
 cssvars = require('postcss-simple-vars'),
 nested = require('postcss-nested'),
-mixins = require('postcss-mixins'),
 hexrgba = require('postcss-hexrgba'),
 autoprefixer = require('autoprefixer');
 

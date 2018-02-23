@@ -34,19 +34,36 @@ ORDER: Base + typography > general layout + grid > page layout > components
 
 1em = 16px
 */
-
+/*
 @define-mixin respond($breakpoint) {
     @if $breakpoint == phone {
-        @media (max-width: 37.5em) { @content };
+        @media only screen and (max-width: 37.5em) { @content };
     }
     @if $breakpoint == tab-port {
-        @media (max-width: 56.25em) { @content };
+        @media only screen and (max-width: 56.25em) { @content };
     }
     @if $breakpoint == tab-land {
-        @media (max-width: 75em) { @content };
+        @media only screen and (max-width: 75em) { @content };
     }
     @if $breakpoint == big-desktop {
-        @media (min-width: 112.5em) { @content };
+        @media only screen and (min-width: 112.5em) { @content };
     }
+}*/
+
+
+
+@define-mixin respond(phone) {
+    @media only screen and (max-width: 37.5em) { @content };
 }
 
+@define-mixin respond(tab-port) {
+    @media only screen and (max-width: 56.25em) { @content };
+}
+
+@define-mixin respond(tab-land) {
+    @media only screen and (max-width: 75em) { @content };
+}
+
+@define-mixin respond(big-desktop) {
+    @media only screen and (min-width: 112.5em) { @content };
+}

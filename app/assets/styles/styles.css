@@ -1,5 +1,8 @@
 
+
 @import "normalize.css";
+@import "icon-font.css";
+
 @import "abstracts/_variables";
 @import "abstracts/_mixins";
 @import "abstracts/_functions";

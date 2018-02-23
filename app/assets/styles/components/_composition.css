@@ -10,7 +10,7 @@
         transition: all .2s;
         outline-offset: 2rem;
 
-        @include respond(tab-port) {
+        @mixin respond(tab-port) {
             float: left;
             position: relative;
             width: 33.33333333%;
@@ -21,7 +21,7 @@
             left: 0;
             top: -2rem;
 
-            @include respond(tab-port)  {
+            @mixin respond(tab-port)  {
                 top: 0;
                 transform: scale(1.2);
             }
@@ -31,7 +31,7 @@
             right: 0;
             top: 2rem;
 
-            @include respond(tab-port)  {
+            @mixin respond(tab-port)  {
                 top: -1rem;
                 transform: scale(1.3);
                 z-index: 100;
@@ -42,7 +42,7 @@
             left: 20%;
             top: 10rem;
 
-            @include respond(tab-port)  {
+            @mixin respond(tab-port)  {
                 top: 1rem;
                 left: 0;
                 transform: scale(1.1);
@@ -62,7 +62,6 @@
         transform: scale(.95);
     }
 
-    composition:hover composition__photo:not(:hover) {
-}
+    /*composition:hover composition__photo:not(:hover) {}*/
 
 }

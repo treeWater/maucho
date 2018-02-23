@@ -9,13 +9,13 @@
     font-size: $default-font-size;
     transform: skewX(-12deg);
 
-    @include respond(tab-port) {
+    @mixin respond(tab-port) {
         width: 100%;
         padding: 4rem;
         padding-left: 7rem;
     }
 
-    @include respond(phone) {
+    @mixin respond(phone) {
         transform: skewX(0);
     }
 
@@ -36,7 +36,7 @@
             border-radius: none;
         }
 
-        @include respond(phone) {
+        @mixin respond(phone) {
             transform: translateX(-3rem) skewX(0);
         }
     }
@@ -51,7 +51,7 @@
     &__text {
         transform: skewX(12deg);
 
-        @include respond(phone) {
+        @mixin respond(phone) {
             transform: skewX(0);
         }
     }

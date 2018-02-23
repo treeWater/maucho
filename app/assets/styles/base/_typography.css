@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "Lato", "Microsoft Yahei", sans-serif;
     font-weight: 400;
     /*font-size: 16px;*/
     line-height: 1.7;
@@ -15,17 +15,17 @@ body {
 
     &--main {
         display: block;
-        font-size: 6rem;
-        font-weight: 400;
+        font-size: 4rem;
+        font-weight: 200;
         letter-spacing: 3.5rem;
 
         animation-name: moveInLeft;
         animation-duration: 1s;
         animation-timing-function: ease-out;
 
-        @include respond(phone) {
+        @mixin respond(phone) {
             letter-spacing: 1rem;
-            font-family: 5rem;
+            font-size: 2rem;
         }
         /*
         animation-delay: 3s;
@@ -35,12 +35,12 @@ body {
 
     &--sub {
         display: block;
-        font-size: 2rem;
-        font-weight: 700;
+        font-size: 2.5rem;
+        font-weight: 600;
         letter-spacing: 1.75rem;
         animation: moveInRight 1s ease-out;
 
-        @include respond(phone) {
+        @mixin respond(phone) {
             letter-spacing: .5rem;
         }
     }
@@ -57,11 +57,11 @@ body {
     letter-spacing: .2rem;
     transition: all .2s;
 
-    @include respond(tab-port) {
+    @mixin respond(tab-port) {
         font-size: 3rem;
     }
 
-    @include respond(phone) {
+    @mixin respond(phone) {
         font-size: 2.5rem;
     }
 
