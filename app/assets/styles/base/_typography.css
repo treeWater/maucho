@@ -24,8 +24,8 @@ body {
         animation-timing-function: ease-out;
 
         @mixin respond(phone) {
-            letter-spacing: 1rem;
-            font-size: 2rem;
+            letter-spacing: 2.5rem;
+            font-size: 3rem;
         }
         /*
         animation-delay: 3s;
@@ -41,7 +41,8 @@ body {
         animation: moveInRight 1s ease-out;
 
         @mixin respond(phone) {
-            letter-spacing: .5rem;
+            letter-spacing: .3rem;
+            font-size: 2.2rem;
         }
     }
 }

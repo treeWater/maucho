@@ -56,7 +56,7 @@
         width: 49%;
         display: inline-block;
 
-        @mixin respond(tab-port) {
+        @mixin respond(phone) {
             width: 100%;
             margin-bottom: 2rem;
         }
