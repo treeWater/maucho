@@ -1,5 +1,4 @@
 
-
 @import "normalize.css";
 @import "icon-font.css";
 
@@ -27,16 +26,3 @@
 @import "layout/_navigation";
 
 @import "pages/_home";
-
-/*
-@import "components/_generic-content-container";
-@import "components/_section-title";
-@import "components/_site-footer";
-@import "components/_feature-item";
-@import "components/_site-header";
-@import "components/_primary-nav";
-@import "components/_testimonial";
-@import "components/_reveal-item";
-@import "components/_modal";
-@import "components/_social-icons";
-*/
